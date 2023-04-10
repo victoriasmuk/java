@@ -1,4 +1,4 @@
-package com.caresoftInterfaces.clinicapp;
+package com.caresoft.clinicapp;
 
 public class Test {
 

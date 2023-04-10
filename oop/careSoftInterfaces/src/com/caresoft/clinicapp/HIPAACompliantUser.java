@@ -1,4 +1,4 @@
-package com.caresoftInterfaces.clinicapp;
+package com.caresoft.clinicapp;
 
 public interface HIPAACompliantUser {
     abstract boolean assignPin(int pin);

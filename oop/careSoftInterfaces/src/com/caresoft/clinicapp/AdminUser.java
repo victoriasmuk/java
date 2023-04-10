@@ -1,4 +1,4 @@
-package com.caresoftInterfaces.clinicapp;
+package com.caresoft.clinicapp;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -37,7 +37,7 @@ public class AdminUser extends User implements HIPAACompliantAdmin, HIPAAComplia
 	@Override
 	public boolean assignPin(int pin) {
 		if(String.valueOf(pin).length() < 6) {
-			System.out.println("Pin must be 6 or more digits!");
+			System.out.println("Pin must be 6 or more digits! ");
 			return false;
 		}
 		this.pin = pin;
