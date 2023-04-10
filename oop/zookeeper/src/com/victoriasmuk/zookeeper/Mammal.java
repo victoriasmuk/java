@@ -1,4 +1,4 @@
-package com.victoriasmuk.Zookeeper;
+package com.victoriasmuk.zookeeper;
 
 public class Mammal {
 	private int energy;

@@ -1,6 +1,6 @@
-package com.victoriasmuk.Zookeeper;
+package com.victoriasmuk.zookeeper;
 
-public class ZookeeperTest {
+public class ZooKeeperTest {
 
 	public static void main(String[] args) {
 		Gorilla Gorilla = new Gorilla();
@@ -23,4 +23,5 @@ public class ZookeeperTest {
 		System.out.println(Bat.fly());
 		System.out.println(Bat.displayEnergy());
 	}
+
 }

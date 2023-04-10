@@ -1,4 +1,4 @@
-package com.victoriasmuk.Zookeeper;
+package com.victoriasmuk.zookeeper;
 
 public class Gorilla extends Mammal {
 	public Gorilla() {
