@@ -17,6 +17,7 @@ import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
 import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
@@ -34,7 +35,7 @@ public class User {
     message = "Username must be at least 3 characters with no special characters.")
     private String userName;
     
-	@NotNull(message="Email is required!")
+	@NotBlank(message="Email is required!")
     @Email(message="Please enter a valid email!")
     private String email;
     
